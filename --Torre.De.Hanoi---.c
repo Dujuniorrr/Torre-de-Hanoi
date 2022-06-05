@@ -53,7 +53,7 @@ int isFull(Pilha p, int nivel){
 
 void push(Pilha *p, int x){
     if(p->topo == TAM-1){
-        printf("ERRO: A pilha está cheia!");
+        printf("ERRO: A pilha estÃ¡ cheia!");
     }
     else{
         p->topo++;
@@ -63,7 +63,7 @@ void push(Pilha *p, int x){
 
 int pop(Pilha *p){
     if(p->topo == -1){
-        printf("ERRO: A pilha está vazia!");
+        printf("ERRO: A pilha estÃ¡ vazia!");
     }
     else{
         p->item[p->topo]=0;
@@ -156,7 +156,6 @@ int main(){
     p1.topo=-1;
     p2.topo=-1;
     p3.topo=-1;
-    printf(RED"                               Desenvolvido por Durval Junior e Luis Fernando\n");
     printf(GRN"                              __________________________________________________\n\n");
     delay(1);
     printf("                                 d888888b  .d88b.  d8888b. d8888b. d88888b\n");
